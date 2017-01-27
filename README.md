@@ -7,5 +7,7 @@ But if this is not properly set on server level
 some servers will deny to send email from non existent mailboxes
 
 # How to install
-Download and change variable $reply_to = "from@domain.com"; in openlucius_reply_to.module to your correct email
-Upload to your modules folder and enable the module
+- download and unzip the module 
+- open up openlucius_reply_to/openlucius_reply_to.module and change the reply_to variable to your reply email 
+- upload the openlucius_reply_to directory to your modules directory  
+- enable it from admin/modules
