@@ -1,0 +1,7 @@
+<?php
+/**
+  * Implements hook_openlucius_notifications_reply_to_email_address_alter().
+  */
+function openlucius_reply_to_openlucius_notifications_reply_to_email_address_alter(&$reply_to) {
+  $reply_to = "from@domain.com";
+}
